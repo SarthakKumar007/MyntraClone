@@ -1,0 +1,215 @@
+body{
+    margin:0%;
+    background-color: #f4bee1;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    height: 86px;
+    /*border: 2px solid rgb(241, 72, 100); */
+    background-color: rgb(255, 255, 255);
+}
+
+header img{
+    height:77px;
+    width: 16%;
+    margin-top: 0.5%;
+    float:left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+header input[type=text] {
+    float: left;
+    padding-right: 410px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border: 2px double rgb(179, 179, 179);
+    margin-top: 20px;
+    margin-left: 160px;
+    font-size: 15px;
+  }
+
+  header input[type=text]:hover {
+    box-shadow: 10px 20px 10px gray;
+  }
+
+  .Register {
+    float: right;
+    margin-top: 1.5%;
+    height: 30px;
+    width: 15%;
+    margin-right: 10px;
+    /*border:2px solid white;*/
+}
+
+.buttonslog {
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    font-size: 20px;
+    border-right: 2px solid rgb(0, 0, 0);
+    float: left;
+    width: 40%
+}
+
+.buttonslog:hover{
+    font-size: 25px;
+}
+
+.buttonssign {
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    font-size: 20px;
+    margin-left: 12%;
+    float: left
+}
+
+.buttonssign:hover{
+    font-size: 25px;
+}
+
+.slider{
+    height: 530px;
+    /*border: 2px solid rgb(194, 247, 59); */
+    
+}
+
+.slider:hover{
+    box-shadow: 10px 20px 10px gray;
+}
+
+.slider img{
+    height:530px;
+    width:100%;
+    
+}
+
+.toppicks{                 /*More tiles not coming beside*/
+    height:400px;
+    /*border:2px solid black;*/
+    margin-top:1%;
+    margin-left:1%;
+    width:100%;
+    display: inline-block;
+}
+
+.toppicks >h2{
+    color:rgb(77, 40, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.toptiles{
+    /*border:2px solid rgb(0, 0, 0);*/
+    height:327px;
+    width:14%;
+    float:left;
+}
+
+.toptiles:hover{
+    height:333px;
+    width:15%;
+    box-shadow: 10px 20px 10px gray;
+}
+
+.toptiles img{
+    height:100%;
+    width:100%;
+}
+
+.font{
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    font-size:15px;
+    margin-top:300px;
+    margin-bottom:1%;
+    text-align: center;
+}
+
+.quicksection{
+    display:inline-block;
+    /*height: 500px;
+    border: 2px solid rgb(33, 191, 223); */
+    margin:3%;
+    margin-left:10%;
+    margin-top:1%;
+    width:80%;
+}
+
+.quicksection >h2{
+    color:rgb(77, 40, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tiles{                                             /*div is overlapping footer--DOUBT*/
+    border: 2px solid black;
+    height:250px;
+    width:49%;
+    float:left;
+    margin:auto;
+}
+
+.tiles img{
+    height: 250px;
+    width:100%;
+}
+
+.tiles:hover{
+    box-shadow: 10px 20px 10px gray;
+}
+
+footer{
+    height: 130px;
+    /*border: 2px solid rgb(241, 72, 100); */
+    background-color: #F13AB1;
+}
+
+.footText{
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    text-align:center;
+    font-size:30px;
+}
+
+.footlist{
+    width:23%;
+    border-right: 2px solid white;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left:7%;
+}
+
+.listhead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.noborder{
+    border:none;
+}
+
+.social{
+    height: 50px;
+    float: right;
+    margin-top: -34px;
+    float:right;
+}
+
+.social img{
+    height:50px;
+    width:50px;
+}
+
