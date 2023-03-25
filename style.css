@@ -63,6 +63,12 @@ header input[type=text] {
     font-size: 25px;
 }
 
+.logbutton{
+    background-color: rgb(139, 190, 234);
+    width:70%;
+    font-size: 20px;
+}
+
 .buttonssign {
     color: rgb(0, 0, 0);
     font-weight:bold;
@@ -73,6 +79,12 @@ header input[type=text] {
 
 .buttonssign:hover{
     font-size: 25px;
+}
+
+.signbutton{
+background-color: rgb(240, 142, 147);
+    width:105%;
+    font-size: 20px;
 }
 
 .slider{
@@ -152,8 +164,8 @@ header input[type=text] {
     text-align: center;
 }
 
-.tiles{                                             /*div is overlapping footer--DOUBT*/
-    border: 2px solid black;
+.tiles{                                             
+    /*border: 2px solid black; */
     height:250px;
     width:49%;
     float:left;
@@ -167,6 +179,7 @@ header input[type=text] {
 
 .tiles:hover{
     box-shadow: 10px 20px 10px gray;
+    height:253px;
 }
 
 footer{
