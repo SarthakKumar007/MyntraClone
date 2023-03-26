@@ -126,6 +126,7 @@ background-color: rgb(240, 142, 147);
     height:327px;
     width:14%;
     float:left;
+    border-radius: 10%;
 }
 
 .toptiles:hover{
@@ -137,6 +138,7 @@ background-color: rgb(240, 142, 147);
 .toptiles img{
     height:100%;
     width:100%;
+    border-radius: 10%;
 }
 
 .font{
@@ -179,8 +181,7 @@ background-color: rgb(240, 142, 147);
 }
 
 .tiles:hover{
-    box-shadow: 10px 20px 10px gray;
-    height:253px;
+        transform: scale(1.1);
 }
 
 footer{
